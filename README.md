@@ -41,12 +41,17 @@ User Story #16: Inside the form element, I am presented with a button with id="s
 
 👋 Hi, I’m John Rhanzel
 
+
 👀 I’m interested in Software Engineering
+
 
 🌱 I’m currently learning Front-end Development
 
+
 💞️ I’m looking to collaborate on open-source projects
 
+
 📫 How to reach me johnrhanzeleb@gmail.com
+
 
 🐥 Follow me on twitter @hellorhanzel
