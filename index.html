@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zel Survey Form</title>
+    <link rel="stylesheet" href="stylesheets.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 id="title">Zel Survey Form</h1>
+        <p id="description">Thank you for your feedback.</p>
+        <!-- survey form -->
+        <form action="" id="survey-form">
+            <!-- form container for name input -->
+            <div class="form-container">
+                <label for="name" id="name-label">Name</label> <br>
+                <input type="text" id="name" placeholder="Enter Full Name" required>
+            </div>
+            <!-- form container for email input -->
+            <div class="form-container">
+                <label for="email" id="email-label">Email</label> <br>
+                <input type="email" name="email" id="email" placeholder="Enter email address" required>
+            </div>
+            <!-- form container for number/age input -->
+            <div class="form-container">
+                <label for="number" id="number-label">Age</label><br>
+                <input type="number" name="number" id="number" placeholder="18" min="18" max="100">
+            </div>
+            <!-- form container for dropdown -->
+            <div class="form-container">
+                <label for="dropdown">What is your occupation?</label> <br>
+                <select name="dropdown" id="dropdown">
+                    <option value="student">Student</option>
+                    <option value="freelance">Freelance</option>
+                    <option value="part-time">Part-time</option>
+                    <option value="full-time">Full-time</option>
+                </select>
+            </div>
+            <!-- form container for radio button recommendation -->
+            <div class="form-radio">
+                <p id="recommendation">Would you recommend Zel for Front-end?</p>
+                <input type="radio" id="definitely" name="recommendation">
+                <label for="definitely">Definitely</label>
+                <input type="radio" id="maybe" name="recommendation">
+                <label for="maybe">Maybe</label>
+                <input type="radio" id="not-sure" name="recommendation">
+                <label for="not-sure">Not Sure</label>
+            </div>
+            <!-- form container for check box for improvementl -->
+            <div class="form-checkbox">
+                <p id="improvement">What would you like to improve?</p>
+                <input type="checkbox" id="hierarchy" name="hierarchy" value="Hierarchy">
+                <label for="hierarchy">Text hierarchy</label><br>
+                <input type="checkbox" id="contrast" name="contrast" value="Contrast">
+                <label for="contrast">Contrast</label><br>
+                <input type="checkbox" id="typography" name="typography" value="Typography">
+                <label for="typography">Typography</label>
+            </div>
+            <!-- form container for text area for comments or suggestions -->
+            <div class="form-comments">
+                <label for="comments">Any comments or suggestions?</label><br>
+                <textarea id="comments" name="comments" rows="4" cols="50">Enter your comment here</textarea>
+            </div>
+            <!-- form container for submit button -->
+            <div class="form-submit">
+                <button id="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
