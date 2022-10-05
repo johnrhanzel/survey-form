@@ -36,13 +36,3 @@ User Story #14: Inside the form element, I can select several fields from a seri
 User Story #15: Inside the form element, I am presented with a textarea at the end for additional comments.
 
 User Story #16: Inside the form element, I am presented with a button with id="submit" to submit all my inputs.
-
-
--- Know more about me --
-
-- 👋 Hi, I’m John Rhanzel
-- 👀 I’m interested in Software Engineering
-- 🌱 I’m currently learning Front-end Development
-- 💞️ I’m looking to collaborate on open-source projects
-- 📫 How to reach me johnrhanzeleb@gmail.com
-- 🐥 Follow me on twitter @hellorhanzel
